@@ -1,0 +1,143 @@
+{
+    "transaction_key": "380.l.1228014.tr.40",
+    "transaction_id": "40",
+    "type": "trade",
+    "status": "successful",
+    "timestamp": "1538291706",
+    "trader_team_key": "380.l.1228014.t.7",
+    "trader_team_name": "JUULio Jones",
+    "tradee_team_key": "380.l.1228014.t.6",
+    "tradee_team_name": "Slap Dick Bandits",
+    "players": {
+        "0": {
+            "player": [
+                [
+                    {
+                        "player_key": "380.p.27591"
+                    },
+                    {
+                        "player_id": "27591"
+                    },
+                    {
+                        "name": {
+                            "full": "Jarvis Landry",
+                            "first": "Jarvis",
+                            "last": "Landry",
+                            "ascii_first": "Jarvis",
+                            "ascii_last": "Landry"
+                        }
+                    },
+                    {
+                        "editorial_team_abbr": "NO"
+                    },
+                    {
+                        "display_position": "WR"
+                    },
+                    {
+                        "position_type": "O"
+                    }
+                ],
+                {
+                    "transaction_data": [
+                        {
+                            "type": "trade",
+                            "source_type": "team",
+                            "source_team_key": "380.l.1228014.t.7",
+                            "source_team_name": "JUULio Jones",
+                            "destination_type": "team",
+                            "destination_team_key": "380.l.1228014.t.6",
+                            "destination_team_name": "Slap Dick Bandits"
+                        }
+                    ]
+                }
+            ]
+        },
+        "1": {
+            "player": [
+                [
+                    {
+                        "player_key": "380.p.8285"
+                    },
+                    {
+                        "player_id": "8285"
+                    },
+                    {
+                        "name": {
+                            "full": "Greg Olsen",
+                            "first": "Greg",
+                            "last": "Olsen",
+                            "ascii_first": "Greg",
+                            "ascii_last": "Olsen"
+                        }
+                    },
+                    {
+                        "editorial_team_abbr": "Sea"
+                    },
+                    {
+                        "display_position": "TE"
+                    },
+                    {
+                        "position_type": "O"
+                    }
+                ],
+                {
+                    "transaction_data": [
+                        {
+                            "type": "trade",
+                            "source_type": "team",
+                            "source_team_key": "380.l.1228014.t.7",
+                            "source_team_name": "JUULio Jones",
+                            "destination_type": "team",
+                            "destination_team_key": "380.l.1228014.t.6",
+                            "destination_team_name": "Slap Dick Bandits"
+                        }
+                    ]
+                }
+            ]
+        },
+        "2": {
+            "player": [
+                [
+                    {
+                        "player_key": "380.p.26561"
+                    },
+                    {
+                        "player_id": "26561"
+                    },
+                    {
+                        "name": {
+                            "full": "Josh Gordon",
+                            "first": "Josh",
+                            "last": "Gordon",
+                            "ascii_first": "Josh",
+                            "ascii_last": "Gordon"
+                        }
+                    },
+                    {
+                        "editorial_team_abbr": "Ten"
+                    },
+                    {
+                        "display_position": "WR"
+                    },
+                    {
+                        "position_type": "O"
+                    }
+                ],
+                {
+                    "transaction_data": [
+                        {
+                            "type": "trade",
+                            "source_type": "team",
+                            "source_team_key": "380.l.1228014.t.6",
+                            "source_team_name": "Slap Dick Bandits",
+                            "destination_type": "team",
+                            "destination_team_key": "380.l.1228014.t.7",
+                            "destination_team_name": "JUULio Jones"
+                        }
+                    ]
+                }
+            ]
+        },
+        "count": 3
+    }
+}

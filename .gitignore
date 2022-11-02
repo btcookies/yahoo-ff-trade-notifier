@@ -132,4 +132,4 @@ dmypy.json
 .vscode/
 
 # Sensitive
-*.json
+src/*.json
