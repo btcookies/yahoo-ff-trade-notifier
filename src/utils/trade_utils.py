@@ -2,6 +2,7 @@ from typing import Dict, List
 
 from src.data_classes.player import Player
 from src.enums import TradeIdentifiers, TradeObjectKeys
+from src.utils.player_utils import get_player_from_info
 
 
 class InvalidTeamType(Exception):
@@ -29,20 +30,6 @@ def get_give_up(raw_trade: Dict, team_name: str) -> List[Player]:
             given_up.append(formatted_player)
 
     return given_up
-
-
-def get_player_from_info(player_info: List[Dict]) -> Player:
-    name, nfl_team, position = None, None, None
-
-    for metadata in player_info:
-        if "name" in metadata.keys():
-            name = metadata["name"]["full"]
-        if "editorial_team_abbr" in metadata.keys():
-            nfl_team = metadata["editorial_team_abbr"]
-        if "display_position" in metadata.keys():
-            position = metadata["display_position"]
-
-    return Player(name=name, nfl_team=nfl_team, position=position)
 
 
 def get_team(raw_trade: Dict, team_type: TradeIdentifiers) -> str:
